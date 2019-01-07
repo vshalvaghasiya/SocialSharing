@@ -39,14 +39,23 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Njd-h5-uxg">
                                         <rect key="frame" x="265" y="10" width="35" height="35"/>
                                         <state key="normal" backgroundImage="instagram"/>
+                                        <connections>
+                                            <action selector="instagramButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6kF-64-m4N"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5jF-99-d5b">
                                         <rect key="frame" x="115" y="10" width="35" height="35"/>
                                         <state key="normal" backgroundImage="twitter"/>
+                                        <connections>
+                                            <action selector="twitterButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o8i-Li-iZa"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ez8-ij-1kT">
                                         <rect key="frame" x="65" y="10" width="35" height="35"/>
                                         <state key="normal" backgroundImage="facebook"/>
+                                        <connections>
+                                            <action selector="facebookButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4xZ-XD-7kX"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
